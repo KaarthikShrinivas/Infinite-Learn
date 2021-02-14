@@ -1,0 +1,85 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.containerMain
+{
+	margin: auto;
+	position: relative;
+	background-color: #fff;
+	border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+			0 10px 10px rgba(0,0,0,0.22);
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 480px;
+}
+.Login
+{
+	position: absolute;
+	padding-left: 10%;
+	top: 22%;
+}
+.SignupInfo
+{
+	position: absolute;
+	left: 50%;
+	top: auto;
+	text-align: center;
+  padding-top: 20%;
+	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	color: white;
+	font-weight: bold;
+	width: 50%;
+	height: 100%;
+}
+input[type="text"]
+{
+	border: none;
+	padding: 10px;
+	background-color: #D3D3D3;
+	width: 130%;
+}
+input[type="password"]
+{
+	border: none;
+	padding: 10px;
+	background-color: #D3D3D3;
+	width: 130%;
+}
+.email
+{
+	border: none;
+	padding: 10px;
+	background-color: #D3D3D3;
+	width: 130%;
+}
+input[type="submit"],[type="button"]
+{
+	border: none;
+	border-radius: 30px;
+	padding: 12px 15px;
+	outline: none;
+}
+input[type="submit"]
+{
+	background-color: #FF4B2B;
+	font-weight: bold;
+	color: white;
+	outline: none;
+}
+input[type="button"]
+{
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+	outline: none;
+	font-weight: bold;
+}

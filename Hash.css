@@ -1,0 +1,136 @@
+*
+{
+    margin: 0px;
+}
+img
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+.search
+{
+    margin-left: 10px;
+    border: solid 1px lightgrey;
+    border-radius: 100px;
+    height: 40px;
+    margin-top: 25px;
+    outline:none;
+    font-size: 20px;
+    color: darkslategrey;
+    padding-left: 20px;
+}  
+#find
+{
+    background-color: blue;
+    border-radius: 50%;
+    border:1px solid transparent;
+    height: 40px;
+    width:40px;
+    font-size:25px;
+    outline: none;
+}
+.demo
+{
+    margin-left: 100px;
+    margin-top: 50px;
+    border:solid 1px transparent;
+    width: 850px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    padding-left:20px;
+    padding-top:20px;
+    padding-bottom: 15px;   
+    word-wrap: break-word;
+    background-color: white;
+}
+a,#link
+{
+    text-decoration: none;
+    font-size: large;
+    color: green;
+}
+#hist
+{
+    color:silver;
+    font-size: 21px;
+}
+.buy
+{
+    color: yellow;
+    font-size: large;
+    background-color:black;
+    border: none;
+    width:160px;
+    height:45px;
+    float:right;
+    margin-right:150px;
+    margin-top:-80px;
+}
+#hist
+{
+    color: silver;
+    font-size: large;
+    margin-top: 10px;
+}
+span
+{
+    font-size: 21px;
+    margin-top: 10px;
+}
+.nav-bar
+{
+    position: relative;
+    padding: 2%;
+    font-size: 22px;
+    color: rgb(149, 128, 255);
+    background-color: rgb(40, 42, 54);
+    font-family: sans-serif;
+}
+.Links
+{
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+    top: 44%;
+}
+.Links a
+{
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+}
+.Links a:hover
+{
+    color: rgb(80, 250, 123);
+}
+.btn
+{
+    border: 1px solid transparent;
+    background-color: maroon;
+    color: white;
+    font-weight: bold;  
+    padding: 8px;  
+    border-radius: 10px;    
+    outline: none;
+}
+b
+{
+    font-size: 21px;
+}
+#suggest
+{
+    display: none;
+    border:solid 1px transparent;
+    width: 540px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    padding-left:20px;
+    padding-top:20px;
+    padding-bottom: 15px;   
+    word-wrap: break-word;
+    background-color: white;
+    margin-left:232px;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+

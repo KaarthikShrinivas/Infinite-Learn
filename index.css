@@ -1,0 +1,140 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #f2f2f2;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+}
+.nav-bar
+{
+  font-family: sans-serif;
+  font-size: 22px;
+  position: relative;
+  padding: 10px;
+  color: rgb(149, 128, 255);
+  background-color: rgb(40, 42, 54);
+
+}
+
+.links
+{
+  font-size: 18px;
+  position: absolute;
+  right: 0;
+  top: 44%;
+}
+.links a
+{
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+  padding-right: 30px;
+}
+.links a:hover
+{
+  color: rgb(80, 250, 123);
+}
+.Intro
+{
+  background-image: url("HomePage Books.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 10%;
+  color: rgb(189, 147, 249);
+  font-family: 'Roboto', sans-serif;
+}
+.search
+{
+  width: 100%;
+  position: absolute;
+  display: flex;
+}
+
+.searchTerm
+{
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 30px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+  font-size: 20px;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 46px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.wrap{
+  width: 30%;
+  position: relative;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+.cards
+{
+  background-color: white;
+  position: absolute;
+  left: -100%;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 300px;
+}
+#TB
+{
+  margin-top: 3%;
+ position: relative;
+  left: -100%;
+}
+.CardsInfo
+{
+  padding: 15px;
+}
+.cards:hover
+{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+#second
+{
+  margin-left: 120%;
+}
+#third
+{
+  margin-left: 225%;;
+}
+.service
+{
+  position: absolute;
+  left: -100%;
+  top: 600%;
+}
+.about
+{
+  position: absolute;
+  left: -100%;
+  top: 700%;
+}
+.contact
+{
+  position: absolute;
+  left: -100%;
+  top: 900%;
+  background-color: rgb(40, 42, 54);
+  background-size: 100%;
+}

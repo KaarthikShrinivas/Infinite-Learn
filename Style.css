@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+}
+.form-box
+{
+    width: 400px;
+    height: 550px;
+    position: relative;
+    top:40px;
+    background-color: black;
+    padding: 10px 5px; 
+}
+.input-group
+{
+    top: 110px;
+    position: absolute;
+    width: 300px;
+}
+p
+{
+    color:white;
+    font-size:15px;
+    font-family:'Lucida Sans';
+}
+.input-field
+{
+    width: 100%;
+    padding: 10px 0px;
+    border-left:0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom:1px solid white;
+    outline: none;
+    background:transparent;
+    color:white;
+    font-size: medium;
+}
+::placeholder
+{
+    color:white;
+}
+.submit-btn
+{
+    width:100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin:auto;
+    background:linear-gradient(to right,#fe8c00,#f80800);   /* Linear Gradient gives differetn based on direction*/
+    border:0; 
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    color:white;
+}
+#pos
+{
+    left:50px;
+}
+h1
+{
+    color:yellow;
+    font-size: 28px;
+    margin-top: 30px;
+    font-family: 'Lucida Sans';
+}
